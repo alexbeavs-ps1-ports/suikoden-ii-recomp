@@ -71,18 +71,13 @@ BIOS/ROM/save plumbing so you are not stuck repeating each game’s wizard by ha
 
 ## Status
 
-Version 0.1.0 release candidate.
+Latest release: v0.1.3, built on psxrecomp pin I 0.1.23.
 
-- Windows: the exact setup package passed automated clean-extract setup,
-  generation, compilation, and a headless start check on the pinned framework.
-- Windows play testing on the private build this kit derives from: reported Playable at the first operator tally (September 12, 2026).
-- Linux and macOS: packages are built by CI from the same recipe; native setup
-  and gameplay have not been verified.
+- Packages for Windows x64, Linux x64, macOS Apple Silicon and macOS Intel passed the CI build and package checks.
+- Replay check: on Windows, a build on pin I 0.1.23 played 2 of 2 recorded routes to the end without a crash. That check compares memory, not the picture, and is not a play test.
+- Not claimed: full-game completion, audio fidelity or multiplayer. Setup and gameplay reports from Linux, macOS and Steam Deck are welcome.
 
-Full-game completion, audio fidelity, and multiplayer are not claimed. Runtime
-snapshots from older builds are not qualified compatible; ordinary memory-card
-saves are preserved across updates.
-
+Known issues for the current version are in its [release notes](https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp/releases/tag/v0.1.3).
 ## Known issues
 
 - None recorded beyond the Status scope above.
